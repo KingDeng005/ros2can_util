@@ -11,15 +11,12 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
-  message_generation
 )
 
 ## Generate messages in the 'msg' folder
-add_message_files(
-    FILES
-    CanMessage.msg
-    CanMessageStamped.msg
-)
+#add_message_files(
+#    FILES
+#)
 
 
 ## Generate added messages and services with any dependencies listed here
